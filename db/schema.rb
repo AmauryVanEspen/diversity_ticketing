@@ -57,8 +57,8 @@ ActiveRecord::Schema.define(version: 20161121200712) do
     t.boolean  "ticket_funded",        default: false, null: false
     t.boolean  "accommodation_funded", default: false, null: false
     t.boolean  "travel_funded",        default: false, null: false
-    t.text     "applicant_directions"
     t.text     "logo"
+    t.text     "applicant_directions"
     t.text     "application_link"
     t.string   "application_process"
   end
